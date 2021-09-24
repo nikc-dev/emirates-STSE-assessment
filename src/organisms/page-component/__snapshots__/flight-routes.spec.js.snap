@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Page Component correctly 1`] = `
+<div
+  className="flight-routes"
+>
+  <NavBar />
+  <Routes
+    isMobile={false}
+    routesList={
+      Array [
+        Object {
+          "arrivesAt": "01:30 PM",
+          "departsAt": "12:00 AM",
+          "from": "DXB",
+          "stops": "2 Stops",
+          "to": "NYC",
+        },
+        Object {
+          "arrivesAt": "08:30 PM",
+          "departsAt": "01:00 PM",
+          "from": "CDG",
+          "stops": "0 Stops",
+          "to": "LCY",
+        },
+        Object {
+          "arrivesAt": "04:30 PM",
+          "departsAt": "02:00 PM",
+          "from": "BIJ",
+          "stops": "1 Stop",
+          "to": "HKG",
+        },
+        Object {
+          "arrivesAt": "02:30 PM",
+          "departsAt": "03:00 AM",
+          "from": "BRL",
+          "stops": "2 Stops",
+          "to": "ZRC",
+        },
+        Object {
+          "arrivesAt": "09:30 PM",
+          "departsAt": "05:00 AM",
+          "from": "JFK",
+          "stops": "0 Stops",
+          "to": "TRT",
+        },
+        Object {
+          "arrivesAt": "01:30 PM",
+          "departsAt": "10:00 PM",
+          "from": "AMS",
+          "stops": "0 Stops",
+          "to": "PKK",
+        },
+        Object {
+          "arrivesAt": "03:30 PM",
+          "departsAt": "11:00 AM",
+          "from": "BLR",
+          "stops": "2 Stops",
+          "to": "SIN",
+        },
+        Object {
+          "arrivesAt": "11:30 PM",
+          "departsAt": "06:00 PM",
+          "from": "BKK",
+          "stops": "1 Stops",
+          "to": "PKT",
+        },
+        Object {
+          "arrivesAt": "04:30 PM",
+          "departsAt": "07:00 AM",
+          "from": "CHN",
+          "stops": "0 Stops",
+          "to": "DIL",
+        },
+        Object {
+          "arrivesAt": "07:30 PM",
+          "departsAt": "08:00 AM",
+          "from": "EGY",
+          "stops": "0 Stops",
+          "to": "DXB",
+        },
+      ]
+    }
+  />
+</div>
+`;

@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Page Component correctly 1`] = `
+<div
+  className="route"
+>
+  <Container
+    fluid={false}
+  >
+    <Row
+      className="route__row-booked"
+      noGutters={false}
+    >
+      <Col
+        className="route__ek-icon"
+      >
+        <img
+          alt="express"
+          className="route__ek-img"
+          src="ek.png"
+        />
+      </Col>
+      <Col
+        className="route__col"
+      >
+        <div
+          className="route__time-container"
+        >
+          <p
+            className="route__time"
+          >
+            test - test
+          </p>
+          <p
+            className="route__carrier"
+          >
+            Emirates
+          </p>
+        </div>
+      </Col>
+      <Col
+        className="route__col"
+      >
+        <div
+          className="route__destination-container"
+        >
+          <p
+            className="route__destination"
+          >
+            test-test
+          </p>
+          <p
+            className="route__stops"
+          >
+            test
+          </p>
+        </div>
+      </Col>
+      <Col
+        className="route__col"
+      >
+        <div
+          className="route__select-cta-container"
+        >
+          <p
+            className="route__selected"
+          >
+            Selected
+          </p>
+        </div>
+      </Col>
+    </Row>
+    <hr
+      className="route__hr"
+    />
+  </Container>
+</div>
+`;

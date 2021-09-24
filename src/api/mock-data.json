@@ -1,0 +1,74 @@
+{
+    "results": [
+        {
+            "to": "NYC",
+            "stops": "2 Stops",
+            "from": "DXB",
+            "departsAt": "12:00 AM",
+            "arrivesAt": "01:30 PM"
+        },
+        {
+            "to": "LCY",
+            "from": "CDG",
+            "stops": "0 Stops",
+            "departsAt": "01:00 PM",
+            "arrivesAt": "08:30 PM"
+        },
+        {
+            "to": "HKG",
+            "from": "BIJ",
+            "stops": "1 Stop",
+            "departsAt": "02:00 PM",
+            "arrivesAt": "04:30 PM"
+        },
+        {
+            "to": "ZRC",
+            "from": "BRL",
+            "departsAt": "03:00 AM",
+            "stops": "2 Stops",
+            "arrivesAt": "02:30 PM"
+        },
+        {
+            "to": "TRT",
+            "from": "JFK",
+            "departsAt": "05:00 AM",
+            "stops": "0 Stops",
+            "arrivesAt": "09:30 PM"
+        },
+        {
+            "to": "PKK",
+            "from": "AMS",
+            "stops": "0 Stops",
+            "departsAt": "10:00 PM",
+            "arrivesAt": "01:30 PM"
+        },
+        {
+            "to": "SIN",
+            "from": "BLR",
+            "stops": "2 Stops",
+            "departsAt": "11:00 AM",
+            "arrivesAt": "03:30 PM"
+        },
+        {
+            "to": "PKT",
+            "from": "BKK",
+            "stops": "1 Stops",
+            "departsAt": "06:00 PM",
+            "arrivesAt": "11:30 PM"
+        },
+        {
+            "to": "DIL",
+            "from": "CHN",
+            "stops": "0 Stops",
+            "departsAt": "07:00 AM",
+            "arrivesAt": "04:30 PM"
+        },
+        {
+            "to": "DXB",
+            "from": "EGY",
+            "stops": "0 Stops",
+            "departsAt": "08:00 AM",
+            "arrivesAt": "07:30 PM"
+        }
+    ]
+}

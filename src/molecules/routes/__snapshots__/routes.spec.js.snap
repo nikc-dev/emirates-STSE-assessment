@@ -1,0 +1,1623 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should handle button click and render selected correctly 1`] = `
+<Routes
+  routesList={
+    Array [
+      Object {
+        "arrivesAt": "01:30 PM",
+        "departsAt": "12:00 AM",
+        "from": "DXB",
+        "stops": "2 Stops",
+        "to": "NYC",
+      },
+      Object {
+        "arrivesAt": "08:30 PM",
+        "departsAt": "01:00 PM",
+        "from": "CDG",
+        "stops": "0 Stops",
+        "to": "LCY",
+      },
+      Object {
+        "arrivesAt": "04:30 PM",
+        "departsAt": "02:00 PM",
+        "from": "BIJ",
+        "stops": "1 Stop",
+        "to": "HKG",
+      },
+      Object {
+        "arrivesAt": "02:30 PM",
+        "departsAt": "03:00 AM",
+        "from": "BRL",
+        "stops": "2 Stops",
+        "to": "ZRC",
+      },
+      Object {
+        "arrivesAt": "09:30 PM",
+        "departsAt": "05:00 AM",
+        "from": "JFK",
+        "stops": "0 Stops",
+        "to": "TRT",
+      },
+      Object {
+        "arrivesAt": "01:30 PM",
+        "departsAt": "10:00 PM",
+        "from": "AMS",
+        "stops": "0 Stops",
+        "to": "PKK",
+      },
+      Object {
+        "arrivesAt": "03:30 PM",
+        "departsAt": "11:00 AM",
+        "from": "BLR",
+        "stops": "2 Stops",
+        "to": "SIN",
+      },
+      Object {
+        "arrivesAt": "11:30 PM",
+        "departsAt": "06:00 PM",
+        "from": "BKK",
+        "stops": "1 Stops",
+        "to": "PKT",
+      },
+      Object {
+        "arrivesAt": "04:30 PM",
+        "departsAt": "07:00 AM",
+        "from": "CHN",
+        "stops": "0 Stops",
+        "to": "DIL",
+      },
+      Object {
+        "arrivesAt": "07:30 PM",
+        "departsAt": "08:00 AM",
+        "from": "EGY",
+        "stops": "0 Stops",
+        "to": "DXB",
+      },
+    ]
+  }
+>
+  <div
+    className="routes"
+  >
+    <div
+      className="routes__grey-container"
+    >
+      <div
+        className="routes__route"
+        key="routes_0"
+      >
+        <Route
+          arrivesAt="01:30 PM"
+          booked={false}
+          buttonId={0}
+          departsAt="12:00 AM"
+          from="DXB"
+          handleBooked={[Function]}
+          stops="2 Stops"
+          to="NYC"
+        >
+          <div
+            className="route"
+          >
+            <Container
+              fluid={false}
+            >
+              <div
+                className="container"
+              >
+                <Row
+                  className="route__row"
+                  noGutters={false}
+                >
+                  <div
+                    className="route__row row"
+                  >
+                    <Col
+                      className="route__ek-icon"
+                    >
+                      <div
+                        className="route__ek-icon col"
+                      >
+                        <img
+                          alt="express"
+                          className="route__ek-img"
+                          src="ek.png"
+                        />
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__time-container"
+                        >
+                          <p
+                            className="route__time"
+                          >
+                            12:00 AM - 01:30 PM
+                          </p>
+                          <p
+                            className="route__carrier"
+                          >
+                            Emirates
+                          </p>
+                        </div>
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__destination-container"
+                        >
+                          <p
+                            className="route__destination"
+                          >
+                            NYC-DXB
+                          </p>
+                          <p
+                            className="route__stops"
+                          >
+                            2 Stops
+                          </p>
+                        </div>
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__select-cta-container"
+                        >
+                          <Button
+                            handleClick={[Function]}
+                            id="route__0"
+                            title="Book"
+                          >
+                            <button
+                              className="button undefined_button"
+                              id="route__0"
+                              onClick={[Function]}
+                            >
+                              Book
+                            </button>
+                          </Button>
+                        </div>
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+                <hr
+                  className="route__hr"
+                />
+              </div>
+            </Container>
+          </div>
+        </Route>
+      </div>
+      <div
+        className="routes__route"
+        key="routes_1"
+      >
+        <Route
+          arrivesAt="08:30 PM"
+          booked={true}
+          buttonId={1}
+          departsAt="01:00 PM"
+          from="CDG"
+          handleBooked={[Function]}
+          stops="0 Stops"
+          to="LCY"
+        >
+          <div
+            className="route"
+          >
+            <Container
+              fluid={false}
+            >
+              <div
+                className="container"
+              >
+                <Row
+                  className="route__row-booked"
+                  noGutters={false}
+                >
+                  <div
+                    className="route__row-booked row"
+                  >
+                    <Col
+                      className="route__ek-icon"
+                    >
+                      <div
+                        className="route__ek-icon col"
+                      >
+                        <img
+                          alt="express"
+                          className="route__ek-img"
+                          src="ek.png"
+                        />
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__time-container"
+                        >
+                          <p
+                            className="route__time"
+                          >
+                            01:00 PM - 08:30 PM
+                          </p>
+                          <p
+                            className="route__carrier"
+                          >
+                            Emirates
+                          </p>
+                        </div>
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__destination-container"
+                        >
+                          <p
+                            className="route__destination"
+                          >
+                            LCY-CDG
+                          </p>
+                          <p
+                            className="route__stops"
+                          >
+                            0 Stops
+                          </p>
+                        </div>
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__select-cta-container"
+                        >
+                          <p
+                            className="route__selected"
+                          >
+                            Selected
+                          </p>
+                        </div>
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+                <hr
+                  className="route__hr"
+                />
+              </div>
+            </Container>
+          </div>
+        </Route>
+      </div>
+      <div
+        className="routes__route"
+        key="routes_2"
+      >
+        <Route
+          arrivesAt="04:30 PM"
+          booked={false}
+          buttonId={2}
+          departsAt="02:00 PM"
+          from="BIJ"
+          handleBooked={[Function]}
+          stops="1 Stop"
+          to="HKG"
+        >
+          <div
+            className="route"
+          >
+            <Container
+              fluid={false}
+            >
+              <div
+                className="container"
+              >
+                <Row
+                  className="route__row"
+                  noGutters={false}
+                >
+                  <div
+                    className="route__row row"
+                  >
+                    <Col
+                      className="route__ek-icon"
+                    >
+                      <div
+                        className="route__ek-icon col"
+                      >
+                        <img
+                          alt="express"
+                          className="route__ek-img"
+                          src="ek.png"
+                        />
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__time-container"
+                        >
+                          <p
+                            className="route__time"
+                          >
+                            02:00 PM - 04:30 PM
+                          </p>
+                          <p
+                            className="route__carrier"
+                          >
+                            Emirates
+                          </p>
+                        </div>
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__destination-container"
+                        >
+                          <p
+                            className="route__destination"
+                          >
+                            HKG-BIJ
+                          </p>
+                          <p
+                            className="route__stops"
+                          >
+                            1 Stop
+                          </p>
+                        </div>
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__select-cta-container"
+                        >
+                          <Button
+                            handleClick={[Function]}
+                            id="route__2"
+                            title="Book"
+                          >
+                            <button
+                              className="button undefined_button"
+                              id="route__2"
+                              onClick={[Function]}
+                            >
+                              Book
+                            </button>
+                          </Button>
+                        </div>
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+                <hr
+                  className="route__hr"
+                />
+              </div>
+            </Container>
+          </div>
+        </Route>
+      </div>
+      <div
+        className="routes__route"
+        key="routes_3"
+      >
+        <Route
+          arrivesAt="02:30 PM"
+          booked={false}
+          buttonId={3}
+          departsAt="03:00 AM"
+          from="BRL"
+          handleBooked={[Function]}
+          stops="2 Stops"
+          to="ZRC"
+        >
+          <div
+            className="route"
+          >
+            <Container
+              fluid={false}
+            >
+              <div
+                className="container"
+              >
+                <Row
+                  className="route__row"
+                  noGutters={false}
+                >
+                  <div
+                    className="route__row row"
+                  >
+                    <Col
+                      className="route__ek-icon"
+                    >
+                      <div
+                        className="route__ek-icon col"
+                      >
+                        <img
+                          alt="express"
+                          className="route__ek-img"
+                          src="ek.png"
+                        />
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__time-container"
+                        >
+                          <p
+                            className="route__time"
+                          >
+                            03:00 AM - 02:30 PM
+                          </p>
+                          <p
+                            className="route__carrier"
+                          >
+                            Emirates
+                          </p>
+                        </div>
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__destination-container"
+                        >
+                          <p
+                            className="route__destination"
+                          >
+                            ZRC-BRL
+                          </p>
+                          <p
+                            className="route__stops"
+                          >
+                            2 Stops
+                          </p>
+                        </div>
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__select-cta-container"
+                        >
+                          <Button
+                            handleClick={[Function]}
+                            id="route__3"
+                            title="Book"
+                          >
+                            <button
+                              className="button undefined_button"
+                              id="route__3"
+                              onClick={[Function]}
+                            >
+                              Book
+                            </button>
+                          </Button>
+                        </div>
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+                <hr
+                  className="route__hr"
+                />
+              </div>
+            </Container>
+          </div>
+        </Route>
+      </div>
+      <div
+        className="routes__route"
+        key="routes_4"
+      >
+        <Route
+          arrivesAt="09:30 PM"
+          booked={false}
+          buttonId={4}
+          departsAt="05:00 AM"
+          from="JFK"
+          handleBooked={[Function]}
+          stops="0 Stops"
+          to="TRT"
+        >
+          <div
+            className="route"
+          >
+            <Container
+              fluid={false}
+            >
+              <div
+                className="container"
+              >
+                <Row
+                  className="route__row"
+                  noGutters={false}
+                >
+                  <div
+                    className="route__row row"
+                  >
+                    <Col
+                      className="route__ek-icon"
+                    >
+                      <div
+                        className="route__ek-icon col"
+                      >
+                        <img
+                          alt="express"
+                          className="route__ek-img"
+                          src="ek.png"
+                        />
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__time-container"
+                        >
+                          <p
+                            className="route__time"
+                          >
+                            05:00 AM - 09:30 PM
+                          </p>
+                          <p
+                            className="route__carrier"
+                          >
+                            Emirates
+                          </p>
+                        </div>
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__destination-container"
+                        >
+                          <p
+                            className="route__destination"
+                          >
+                            TRT-JFK
+                          </p>
+                          <p
+                            className="route__stops"
+                          >
+                            0 Stops
+                          </p>
+                        </div>
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__select-cta-container"
+                        >
+                          <Button
+                            handleClick={[Function]}
+                            id="route__4"
+                            title="Book"
+                          >
+                            <button
+                              className="button undefined_button"
+                              id="route__4"
+                              onClick={[Function]}
+                            >
+                              Book
+                            </button>
+                          </Button>
+                        </div>
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+                <hr
+                  className="route__hr"
+                />
+              </div>
+            </Container>
+          </div>
+        </Route>
+      </div>
+      <div
+        className="routes__route"
+        key="routes_5"
+      >
+        <Route
+          arrivesAt="01:30 PM"
+          booked={false}
+          buttonId={5}
+          departsAt="10:00 PM"
+          from="AMS"
+          handleBooked={[Function]}
+          stops="0 Stops"
+          to="PKK"
+        >
+          <div
+            className="route"
+          >
+            <Container
+              fluid={false}
+            >
+              <div
+                className="container"
+              >
+                <Row
+                  className="route__row"
+                  noGutters={false}
+                >
+                  <div
+                    className="route__row row"
+                  >
+                    <Col
+                      className="route__ek-icon"
+                    >
+                      <div
+                        className="route__ek-icon col"
+                      >
+                        <img
+                          alt="express"
+                          className="route__ek-img"
+                          src="ek.png"
+                        />
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__time-container"
+                        >
+                          <p
+                            className="route__time"
+                          >
+                            10:00 PM - 01:30 PM
+                          </p>
+                          <p
+                            className="route__carrier"
+                          >
+                            Emirates
+                          </p>
+                        </div>
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__destination-container"
+                        >
+                          <p
+                            className="route__destination"
+                          >
+                            PKK-AMS
+                          </p>
+                          <p
+                            className="route__stops"
+                          >
+                            0 Stops
+                          </p>
+                        </div>
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__select-cta-container"
+                        >
+                          <Button
+                            handleClick={[Function]}
+                            id="route__5"
+                            title="Book"
+                          >
+                            <button
+                              className="button undefined_button"
+                              id="route__5"
+                              onClick={[Function]}
+                            >
+                              Book
+                            </button>
+                          </Button>
+                        </div>
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+                <hr
+                  className="route__hr"
+                />
+              </div>
+            </Container>
+          </div>
+        </Route>
+      </div>
+      <div
+        className="routes__route"
+        key="routes_6"
+      >
+        <Route
+          arrivesAt="03:30 PM"
+          booked={false}
+          buttonId={6}
+          departsAt="11:00 AM"
+          from="BLR"
+          handleBooked={[Function]}
+          stops="2 Stops"
+          to="SIN"
+        >
+          <div
+            className="route"
+          >
+            <Container
+              fluid={false}
+            >
+              <div
+                className="container"
+              >
+                <Row
+                  className="route__row"
+                  noGutters={false}
+                >
+                  <div
+                    className="route__row row"
+                  >
+                    <Col
+                      className="route__ek-icon"
+                    >
+                      <div
+                        className="route__ek-icon col"
+                      >
+                        <img
+                          alt="express"
+                          className="route__ek-img"
+                          src="ek.png"
+                        />
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__time-container"
+                        >
+                          <p
+                            className="route__time"
+                          >
+                            11:00 AM - 03:30 PM
+                          </p>
+                          <p
+                            className="route__carrier"
+                          >
+                            Emirates
+                          </p>
+                        </div>
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__destination-container"
+                        >
+                          <p
+                            className="route__destination"
+                          >
+                            SIN-BLR
+                          </p>
+                          <p
+                            className="route__stops"
+                          >
+                            2 Stops
+                          </p>
+                        </div>
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__select-cta-container"
+                        >
+                          <Button
+                            handleClick={[Function]}
+                            id="route__6"
+                            title="Book"
+                          >
+                            <button
+                              className="button undefined_button"
+                              id="route__6"
+                              onClick={[Function]}
+                            >
+                              Book
+                            </button>
+                          </Button>
+                        </div>
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+                <hr
+                  className="route__hr"
+                />
+              </div>
+            </Container>
+          </div>
+        </Route>
+      </div>
+      <div
+        className="routes__route"
+        key="routes_7"
+      >
+        <Route
+          arrivesAt="11:30 PM"
+          booked={false}
+          buttonId={7}
+          departsAt="06:00 PM"
+          from="BKK"
+          handleBooked={[Function]}
+          stops="1 Stops"
+          to="PKT"
+        >
+          <div
+            className="route"
+          >
+            <Container
+              fluid={false}
+            >
+              <div
+                className="container"
+              >
+                <Row
+                  className="route__row"
+                  noGutters={false}
+                >
+                  <div
+                    className="route__row row"
+                  >
+                    <Col
+                      className="route__ek-icon"
+                    >
+                      <div
+                        className="route__ek-icon col"
+                      >
+                        <img
+                          alt="express"
+                          className="route__ek-img"
+                          src="ek.png"
+                        />
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__time-container"
+                        >
+                          <p
+                            className="route__time"
+                          >
+                            06:00 PM - 11:30 PM
+                          </p>
+                          <p
+                            className="route__carrier"
+                          >
+                            Emirates
+                          </p>
+                        </div>
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__destination-container"
+                        >
+                          <p
+                            className="route__destination"
+                          >
+                            PKT-BKK
+                          </p>
+                          <p
+                            className="route__stops"
+                          >
+                            1 Stops
+                          </p>
+                        </div>
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__select-cta-container"
+                        >
+                          <Button
+                            handleClick={[Function]}
+                            id="route__7"
+                            title="Book"
+                          >
+                            <button
+                              className="button undefined_button"
+                              id="route__7"
+                              onClick={[Function]}
+                            >
+                              Book
+                            </button>
+                          </Button>
+                        </div>
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+                <hr
+                  className="route__hr"
+                />
+              </div>
+            </Container>
+          </div>
+        </Route>
+      </div>
+      <div
+        className="routes__route"
+        key="routes_8"
+      >
+        <Route
+          arrivesAt="04:30 PM"
+          booked={false}
+          buttonId={8}
+          departsAt="07:00 AM"
+          from="CHN"
+          handleBooked={[Function]}
+          stops="0 Stops"
+          to="DIL"
+        >
+          <div
+            className="route"
+          >
+            <Container
+              fluid={false}
+            >
+              <div
+                className="container"
+              >
+                <Row
+                  className="route__row"
+                  noGutters={false}
+                >
+                  <div
+                    className="route__row row"
+                  >
+                    <Col
+                      className="route__ek-icon"
+                    >
+                      <div
+                        className="route__ek-icon col"
+                      >
+                        <img
+                          alt="express"
+                          className="route__ek-img"
+                          src="ek.png"
+                        />
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__time-container"
+                        >
+                          <p
+                            className="route__time"
+                          >
+                            07:00 AM - 04:30 PM
+                          </p>
+                          <p
+                            className="route__carrier"
+                          >
+                            Emirates
+                          </p>
+                        </div>
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__destination-container"
+                        >
+                          <p
+                            className="route__destination"
+                          >
+                            DIL-CHN
+                          </p>
+                          <p
+                            className="route__stops"
+                          >
+                            0 Stops
+                          </p>
+                        </div>
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__select-cta-container"
+                        >
+                          <Button
+                            handleClick={[Function]}
+                            id="route__8"
+                            title="Book"
+                          >
+                            <button
+                              className="button undefined_button"
+                              id="route__8"
+                              onClick={[Function]}
+                            >
+                              Book
+                            </button>
+                          </Button>
+                        </div>
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+                <hr
+                  className="route__hr"
+                />
+              </div>
+            </Container>
+          </div>
+        </Route>
+      </div>
+      <div
+        className="routes__route"
+        key="routes_9"
+      >
+        <Route
+          arrivesAt="07:30 PM"
+          booked={false}
+          buttonId={9}
+          departsAt="08:00 AM"
+          from="EGY"
+          handleBooked={[Function]}
+          stops="0 Stops"
+          to="DXB"
+        >
+          <div
+            className="route"
+          >
+            <Container
+              fluid={false}
+            >
+              <div
+                className="container"
+              >
+                <Row
+                  className="route__row"
+                  noGutters={false}
+                >
+                  <div
+                    className="route__row row"
+                  >
+                    <Col
+                      className="route__ek-icon"
+                    >
+                      <div
+                        className="route__ek-icon col"
+                      >
+                        <img
+                          alt="express"
+                          className="route__ek-img"
+                          src="ek.png"
+                        />
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__time-container"
+                        >
+                          <p
+                            className="route__time"
+                          >
+                            08:00 AM - 07:30 PM
+                          </p>
+                          <p
+                            className="route__carrier"
+                          >
+                            Emirates
+                          </p>
+                        </div>
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__destination-container"
+                        >
+                          <p
+                            className="route__destination"
+                          >
+                            DXB-EGY
+                          </p>
+                          <p
+                            className="route__stops"
+                          >
+                            0 Stops
+                          </p>
+                        </div>
+                      </div>
+                    </Col>
+                    <Col
+                      className="route__col"
+                    >
+                      <div
+                        className="route__col col"
+                      >
+                        <div
+                          className="route__select-cta-container"
+                        >
+                          <Button
+                            handleClick={[Function]}
+                            id="route__9"
+                            title="Book"
+                          >
+                            <button
+                              className="button undefined_button"
+                              id="route__9"
+                              onClick={[Function]}
+                            >
+                              Book
+                            </button>
+                          </Button>
+                        </div>
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+                <hr
+                  className="route__hr"
+                />
+              </div>
+            </Container>
+          </div>
+        </Route>
+      </div>
+    </div>
+  </div>
+</Routes>
+`;
+
+exports[`should render Page Component correctly 1`] = `
+<div
+  className="routes"
+>
+  <div
+    className="routes__grey-container"
+  >
+    <div
+      className="routes__route"
+      key="routes_0"
+    >
+      <Route
+        arrivesAt="01:30 PM"
+        booked={false}
+        buttonId={0}
+        departsAt="12:00 AM"
+        from="DXB"
+        handleBooked={[Function]}
+        stops="2 Stops"
+        to="NYC"
+      />
+    </div>
+    <div
+      className="routes__route"
+      key="routes_1"
+    >
+      <Route
+        arrivesAt="08:30 PM"
+        booked={false}
+        buttonId={1}
+        departsAt="01:00 PM"
+        from="CDG"
+        handleBooked={[Function]}
+        stops="0 Stops"
+        to="LCY"
+      />
+    </div>
+    <div
+      className="routes__route"
+      key="routes_2"
+    >
+      <Route
+        arrivesAt="04:30 PM"
+        booked={false}
+        buttonId={2}
+        departsAt="02:00 PM"
+        from="BIJ"
+        handleBooked={[Function]}
+        stops="1 Stop"
+        to="HKG"
+      />
+    </div>
+    <div
+      className="routes__route"
+      key="routes_3"
+    >
+      <Route
+        arrivesAt="02:30 PM"
+        booked={false}
+        buttonId={3}
+        departsAt="03:00 AM"
+        from="BRL"
+        handleBooked={[Function]}
+        stops="2 Stops"
+        to="ZRC"
+      />
+    </div>
+    <div
+      className="routes__route"
+      key="routes_4"
+    >
+      <Route
+        arrivesAt="09:30 PM"
+        booked={false}
+        buttonId={4}
+        departsAt="05:00 AM"
+        from="JFK"
+        handleBooked={[Function]}
+        stops="0 Stops"
+        to="TRT"
+      />
+    </div>
+    <div
+      className="routes__route"
+      key="routes_5"
+    >
+      <Route
+        arrivesAt="01:30 PM"
+        booked={false}
+        buttonId={5}
+        departsAt="10:00 PM"
+        from="AMS"
+        handleBooked={[Function]}
+        stops="0 Stops"
+        to="PKK"
+      />
+    </div>
+    <div
+      className="routes__route"
+      key="routes_6"
+    >
+      <Route
+        arrivesAt="03:30 PM"
+        booked={false}
+        buttonId={6}
+        departsAt="11:00 AM"
+        from="BLR"
+        handleBooked={[Function]}
+        stops="2 Stops"
+        to="SIN"
+      />
+    </div>
+    <div
+      className="routes__route"
+      key="routes_7"
+    >
+      <Route
+        arrivesAt="11:30 PM"
+        booked={false}
+        buttonId={7}
+        departsAt="06:00 PM"
+        from="BKK"
+        handleBooked={[Function]}
+        stops="1 Stops"
+        to="PKT"
+      />
+    </div>
+    <div
+      className="routes__route"
+      key="routes_8"
+    >
+      <Route
+        arrivesAt="04:30 PM"
+        booked={false}
+        buttonId={8}
+        departsAt="07:00 AM"
+        from="CHN"
+        handleBooked={[Function]}
+        stops="0 Stops"
+        to="DIL"
+      />
+    </div>
+    <div
+      className="routes__route"
+      key="routes_9"
+    >
+      <Route
+        arrivesAt="07:30 PM"
+        booked={false}
+        buttonId={9}
+        departsAt="08:00 AM"
+        from="EGY"
+        handleBooked={[Function]}
+        stops="0 Stops"
+        to="DXB"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should render Page Component correctly for mobile view 1`] = `
+<div
+  className="routes"
+>
+  <div
+    className="routes__grey-container-mobile"
+  >
+    <div
+      className="routes__route"
+      key="routes_0"
+    >
+      <Route
+        arrivesAt="01:30 PM"
+        booked={false}
+        buttonId={0}
+        departsAt="12:00 AM"
+        from="DXB"
+        handleBooked={[Function]}
+        stops="2 Stops"
+        to="NYC"
+      />
+    </div>
+    <div
+      className="routes__route"
+      key="routes_1"
+    >
+      <Route
+        arrivesAt="08:30 PM"
+        booked={false}
+        buttonId={1}
+        departsAt="01:00 PM"
+        from="CDG"
+        handleBooked={[Function]}
+        stops="0 Stops"
+        to="LCY"
+      />
+    </div>
+    <div
+      className="routes__route"
+      key="routes_2"
+    >
+      <Route
+        arrivesAt="04:30 PM"
+        booked={false}
+        buttonId={2}
+        departsAt="02:00 PM"
+        from="BIJ"
+        handleBooked={[Function]}
+        stops="1 Stop"
+        to="HKG"
+      />
+    </div>
+    <div
+      className="routes__route"
+      key="routes_3"
+    >
+      <Route
+        arrivesAt="02:30 PM"
+        booked={false}
+        buttonId={3}
+        departsAt="03:00 AM"
+        from="BRL"
+        handleBooked={[Function]}
+        stops="2 Stops"
+        to="ZRC"
+      />
+    </div>
+    <div
+      className="routes__route"
+      key="routes_4"
+    >
+      <Route
+        arrivesAt="09:30 PM"
+        booked={false}
+        buttonId={4}
+        departsAt="05:00 AM"
+        from="JFK"
+        handleBooked={[Function]}
+        stops="0 Stops"
+        to="TRT"
+      />
+    </div>
+    <div
+      className="routes__route"
+      key="routes_5"
+    >
+      <Route
+        arrivesAt="01:30 PM"
+        booked={false}
+        buttonId={5}
+        departsAt="10:00 PM"
+        from="AMS"
+        handleBooked={[Function]}
+        stops="0 Stops"
+        to="PKK"
+      />
+    </div>
+    <div
+      className="routes__route"
+      key="routes_6"
+    >
+      <Route
+        arrivesAt="03:30 PM"
+        booked={false}
+        buttonId={6}
+        departsAt="11:00 AM"
+        from="BLR"
+        handleBooked={[Function]}
+        stops="2 Stops"
+        to="SIN"
+      />
+    </div>
+    <div
+      className="routes__route"
+      key="routes_7"
+    >
+      <Route
+        arrivesAt="11:30 PM"
+        booked={false}
+        buttonId={7}
+        departsAt="06:00 PM"
+        from="BKK"
+        handleBooked={[Function]}
+        stops="1 Stops"
+        to="PKT"
+      />
+    </div>
+    <div
+      className="routes__route"
+      key="routes_8"
+    >
+      <Route
+        arrivesAt="04:30 PM"
+        booked={false}
+        buttonId={8}
+        departsAt="07:00 AM"
+        from="CHN"
+        handleBooked={[Function]}
+        stops="0 Stops"
+        to="DIL"
+      />
+    </div>
+    <div
+      className="routes__route"
+      key="routes_9"
+    >
+      <Route
+        arrivesAt="07:30 PM"
+        booked={false}
+        buttonId={9}
+        departsAt="08:00 AM"
+        from="EGY"
+        handleBooked={[Function]}
+        stops="0 Stops"
+        to="DXB"
+      />
+    </div>
+  </div>
+</div>
+`;

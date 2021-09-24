@@ -1,0 +1,65 @@
+.route {
+    padding: 16px;
+    // border:1px solid #e4e4e4;
+    &__row {
+        justify-content: space-between;
+        display: flex;
+        padding: 10px 10px 20px;
+        text-align: left;
+    }
+
+    &__row-booked {
+        justify-content: space-between;
+        display: flex;
+        padding: 10px 10px 20px;
+        text-align: left;
+        border-radius: 8px;
+        background:#97f1ff8c;
+    }
+
+    &__ek-img {
+        height: 40px;
+        margin-top: 5px;
+        margin-right: 20px;
+    }
+
+    &__time-container {
+        margin-right: 20px;
+    }
+
+    &__destination-container {
+        min-width: 50px;
+        max-width: 150px;
+        margin-right: 20px;
+    }
+
+    &__time {
+        font-size: 16px;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    &__carrier,
+    &__stops {
+        color: #70757a;
+        margin: 0;
+    }
+
+    &__destination {
+        font-size: 16px;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    &__selected {
+        color: #70757a;
+        font-size: 16px;
+        font-weight: 500;
+        padding-right: 20px;
+    }
+
+    &__hr {
+        border: 0.5px solid #e4e4e4;
+    }
+
+}
