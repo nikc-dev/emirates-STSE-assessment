@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/emirates-S-TSE-assessment/static/css/main.35e52b18.chunk.css",
+    "main.js": "/emirates-S-TSE-assessment/static/js/main.13a9ef71.chunk.js",
+    "main.js.map": "/emirates-S-TSE-assessment/static/js/main.13a9ef71.chunk.js.map",
+    "runtime-main.js": "/emirates-S-TSE-assessment/static/js/runtime-main.5017b37a.js",
+    "runtime-main.js.map": "/emirates-S-TSE-assessment/static/js/runtime-main.5017b37a.js.map",
+    "static/js/2.4896e6db.chunk.js": "/emirates-S-TSE-assessment/static/js/2.4896e6db.chunk.js",
+    "static/js/2.4896e6db.chunk.js.map": "/emirates-S-TSE-assessment/static/js/2.4896e6db.chunk.js.map",
+    "index.html": "/emirates-S-TSE-assessment/index.html",
+    "static/css/main.35e52b18.chunk.css.map": "/emirates-S-TSE-assessment/static/css/main.35e52b18.chunk.css.map",
+    "static/js/2.4896e6db.chunk.js.LICENSE.txt": "/emirates-S-TSE-assessment/static/js/2.4896e6db.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5017b37a.js",
+    "static/js/2.4896e6db.chunk.js",
+    "static/css/main.35e52b18.chunk.css",
+    "static/js/main.13a9ef71.chunk.js"
+  ]
+}
